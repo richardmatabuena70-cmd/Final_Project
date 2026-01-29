@@ -1,0 +1,87 @@
+aside button {
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main h1 {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  color: #333; /* optional */
+}
+
+:root {
+  --bg-color: #111111;
+  --panel-color: #1e1e1e;
+  --text-color: #ffffff;
+  --button-text: #ffffff;
+}
+
+.light-theme {
+  --bg-color: #f5f5f5;
+  --panel-color: #ffffff;
+  --text-color: #000000;
+  --button-text: #000000;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  width: 220px;
+  background: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+}
+
+aside button {
+  padding: 15px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+button.selected {
+  background: lime;
+  color: var(--button-text);
+}
+
+:root {
+  --bg: #111;
+  --panel: #1e1e1e;
+  --text: #ffffff;
+}
+
+.light-theme {
+  --bg: #f4f4f4;
+  --panel: #ffffff;
+  --text: #000000;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+aside,
+.sidebar,
+main {
+  background: var(--panel-color);
+  color: var(--text-color);
+}
+

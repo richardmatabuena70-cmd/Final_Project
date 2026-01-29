@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Math Quiz Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside>
+        <button type="button" onclick="toggleTheme()">🌗 Light / Dark</button>
+        <button onclick="chooseLevel()">Play the Game</button>
+        <button onclick="showScores()">Current Score</button>
+        <button onclick="showTime()">Remaining Time</button>
+        <button onclick="showAccuracy()">Accuracy</button>
+        <button onclick="showAnswers()">Response Review</button>
+        <button onclick="showLiveProgress()">Question Progress</button>
+        <button onclick="showAllUsersStats()">📊 All Users Stats</button>
+        <button onclick="logout()" style="background:#F44336; color:white; margin-top:20px;">🚪 Logout</button>
+      </aside>
+
+      <main id="content">
+        <h1>MATH QUIZ GAME WEB BASED</h1>
+      </main>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/quiz.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+Steps to Move to USB:
+Copy entire project folder to USB
+Export database (Option 1 above)
+On new laptop:
+Install Node.js
+Install MySQL
+Copy project from USB
+Import database
+Run: npm install
+=======
+Steps to Move to USB:
+Copy entire project folder to USB
+Export database (Option 1 above)
+On new laptop:
+Install Node.js
+Install MySQL
+Copy project from USB
+Import database
+Run: npm install
+>>>>>>> a10d6143e0bfcf74ae470e4c478d2b3c2d1e4d5f
+Run: node server.js
